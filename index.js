@@ -1,1 +1,1 @@
-let submitData(username, email)
+submitData(username, email)
