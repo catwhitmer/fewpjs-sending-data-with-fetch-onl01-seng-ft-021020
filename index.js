@@ -1,6 +1,3 @@
-submitData(username, email)
-
-
 let submitData = {
   name: "username",
   email: "email"
