@@ -13,10 +13,10 @@ function submitData(name, email) {
   body: JSON.stringify(formData)
   };
  
-return fetch("http://localhost:3000/users", configObj)
-        .then(function(response) {
-          return response.json();
-        })
+  return fetch("http://localhost:3000/users", configObj)
+    .then(function(response) {
+      return response.json();
+    })
         .then(function(object) {
             let h2 = document.createElement('h2');
             h2.innerHTML = object.id;
