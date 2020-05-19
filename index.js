@@ -17,12 +17,12 @@ function submitData(name, email) {
     .then(function(response) {
       return response.json();
     })
-    .then(function(object) {
+    .then(function(obj) {
       let h2 = document.createElement('h2');
-      h2.innerHTML = object.id;
+      h2.innerHTML = obj.id;
       document.body.appendChild(h2);
       
-      console.log(object);
+      console.log(obj);
       })
       .catch(function(error) {
         let h3 = document.createElement('h3');
