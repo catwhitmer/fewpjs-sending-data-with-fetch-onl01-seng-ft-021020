@@ -1,6 +1,11 @@
-let submitData = {
-  name: "username",
-  email: "email"
+function submitData(username, email) {
+  
+}
+
+
+let formData = {
+  dogName: "Byron",
+  dogBreed: "Poodle"
 };
  
 let configObj = {
