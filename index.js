@@ -1,4 +1,4 @@
-function submitData(userName, email) {
+function submitData(name, email) {
   let configObj = {
   method: "POST",
   headers: {
@@ -6,7 +6,7 @@ function submitData(userName, email) {
     "Accept": "application/json"
   },
   body: JSON.stringify({
-    name: userName,
+    name: name,
     email: email
   })
   };
