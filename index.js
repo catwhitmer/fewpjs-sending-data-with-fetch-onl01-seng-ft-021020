@@ -1,9 +1,9 @@
 submitData(username, email)
 
 
-let formData = {
-  dogName: "Byron",
-  dogBreed: "Poodle"
+let submitData = {
+  name: "username",
+  email: "email"
 };
  
 let configObj = {
