@@ -1,5 +1,3 @@
 function submitData(username, email) {
   
 }
-
-
