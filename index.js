@@ -7,7 +7,7 @@ function submitData(userName, email) {
   },
   body: JSON.stringify({
     name: userName,
-    email: userEmail
+    email: email
   })
   };
  
