@@ -1,5 +1,5 @@
 function submitData(username, email) {
-  fetch("http://localhost:3000/dogs", configObj)
+  fetch("http://localhost:3000/users", configObj)
   .then(function(response) {
     return response.json();
   })
