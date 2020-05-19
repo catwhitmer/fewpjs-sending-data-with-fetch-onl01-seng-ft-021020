@@ -1,1 +1,2 @@
-let submitData = (username, email);
+let submitData = {username, email
+};
